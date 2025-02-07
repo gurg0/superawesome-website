@@ -1,0 +1,149 @@
+﻿/* Global Body Styles */
+body {
+   font-family: 'Roboto', sans-serif; /* Modern, clean font similar to Google’s aesthetic */
+   background-color: #f7f7f7; /* Light, soothing background */
+   color: #444; /* Darker, easier-to-read text */
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+   text-align: center;
+   line-height: 1.6; /* Easier-to-read line spacing */
+   padding: 20px; /* Add padding for comfort */
+}
+
+
+/* Logo Styling */
+.logo {
+   width: 25%;
+   border-radius: 10px;
+   margin: 40px;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
+/* Cinematic Class */
+.cinimatic {
+   color: #333; /* Softer text color */
+   letter-spacing: 2px;
+   text-shadow: -1px 1px 5px rgba(50, 50, 50, 0.3); /* Softer text shadow */
+   font-weight: bold;
+}
+
+
+/* Button Styling */
+button {
+   background-color: #ff8c00; /* Soft blue */
+   color: white;
+   padding: 15px 25px;
+   border: none;
+   border-radius: 25px; /* Rounded corners for a modern look */
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Button Hover Effect */
+button:hover {
+   outline: none; /* Removes the outline */
+   background-color: #e67e00; /* Slightly darker blue on hover */
+   transform: translateY(-3px); /* Lift effect */
+}
+
+
+/* Link Styling */
+a {
+   color: #ff8c00; /* Warm color for links */
+   text-decoration: none; /* Remove underline */
+   text-shadow: 0px 0px 3px rgba(50, 50, 50, 0.4);
+   font-weight: bold;
+}
+
+
+/* Link Hover Effect */
+a:hover {
+   text-shadow: 0px 0px 6px rgba(255, 150, 0, 0.6); /* Stronger shadow on hover */
+   transform: translateY(-3px); /* Lift effect on hover */
+}
+
+
+
+
+/* Text Alignment */
+.align-left {
+   text-align: left;
+}
+
+
+.align-right {
+   text-align: right;
+}
+
+
+li {
+   text-align: left;
+}
+
+
+/* Spacing for Vertical Elements */
+.space-b {
+   margin-bottom: 30px; /* Less space between elements */
+}
+
+
+.space-t {
+   margin-top: 30px; /* Less space on top */
+}
+
+
+.red-t {
+   color: darkred;
+   text-shadow: 0px -1px 2px rgba(200, 0, 0, 0.4);
+}
+
+
+.space-l {
+   margin-left: 30px; /* Less space on top */
+}
+
+
+.space-r {
+   margin-right: 30px; /* Less space on top */
+}
+
+
+/* Input Field Styling */
+input, textarea {
+   padding: 12px;
+   border: 2px solid #ffc681;
+   border-radius: 25px;
+   background-color: #fff2e8;
+   font-size: 16px;
+   width: 80%;
+   max-width: 400px;
+   margin: 10px 0;
+   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+   color: black; /* Darker, easier-to-read text */
+   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+
+input:focus, textarea:focus {
+   border-radius: 15px;
+   outline: none; /* Removes the outline */
+   border-color: #ff9234; /* Soft blue border on focus */
+   box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Soft blue glow */
+}
+
+
+/* Textarea Specific */
+textarea {
+   height: 150px;
+   resize: vertical; /* Allow users to resize textarea vertically */
+}
+
+
+/* Soft Shadow Effect for Elements */
+.container, .section {
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); /* Soft shadow around sections */
+   border-radius: 10px;
+}
